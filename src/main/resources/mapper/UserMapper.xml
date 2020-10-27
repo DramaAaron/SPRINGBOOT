@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo02.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.example.demo02.model.User"/>
+    <select id="findOne" resultMap="BaseResultMap">
+		select * from user where id = #{id}
+	</select>
+    <select id="findAll" resultMap="BaseResultMap">
+		select * from user
+	</select>
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+		insert into user
+		  (id, name, mobile, email)
+		values
+		  (#{id}, #{name}, #{mobile}, #{email})
+	</insert>
+    <delete id="delete">
+		delete from user where id = #{id}
+	</delete>
+</mapper>
