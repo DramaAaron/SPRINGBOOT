@@ -1,0 +1,786 @@
+2020-12-14 10:23:52.367 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 5404 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 10:23:52.370 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 10:23:52.427 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 10:23:52.427 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 10:23:53.939 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 10:23:53.939 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 10:23:54.024 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 10:23:54.043 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
+2020-12-14 10:23:54.086 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 10:23:54.086 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 10:23:54.092 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 10:23:54.098 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 10:23:54.112 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 10:23:54.114 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 10:23:54.128 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 10:23:54.129 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 10:23:54.129 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-12-14 10:23:55.112 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 10:23:55.121 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 10:23:55.122 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 10:23:55.122 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 10:23:55.258 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 10:23:55.258 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2831 ms
+2020-12-14 10:23:55.597 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 10:23:55.682 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 10:23:55.815 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 10:23:56.042 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 10:23:56.139 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 10:23:56.487 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 10:23:56.507 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 10:23:57.350 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 10:23:57.358 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 10:23:57.664 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 10:23:58.550 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 10:23:58.914 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 10:24:00.593 INFO [cluster-ClusterId{value='5fd6ccbe2939115c9e28ac0f', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 10:24:00.773 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 10:24:00.795 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 10:24:00.797 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 10:24:00.798 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 10:24:00.809 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 9.147 seconds (JVM running for 10.974)
+2020-12-14 10:25:32.506 INFO [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 10:25:32.506 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-12-14 10:25:32.515 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-12-14 10:25:32.547 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:40 -===============================Start========================
+2020-12-14 10:25:32.547 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:41 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 10:25:32.548 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:42 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 10:25:32.549 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:43 -HTTP Method        : GET
+2020-12-14 10:25:32.552 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:44 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 10:25:32.615 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAfter:83 -===============================End========================
+2020-12-14 10:25:32.616 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAround:51 -Request Params       : {id=4}
+2020-12-14 10:25:32.616 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAround:52 -Result               : {user=com.example.demo02.model.User@553b761e}
+2020-12-14 10:25:32.616 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAround:53 -Time Cost            : 70 ms
+2020-12-14 10:25:52.407 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doBefore:40 -===============================Start========================
+2020-12-14 10:25:52.408 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doBefore:41 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 10:25:52.408 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doBefore:42 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 10:25:52.408 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doBefore:43 -HTTP Method        : GET
+2020-12-14 10:25:52.409 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doBefore:44 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 10:25:52.411 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doAfter:83 -===============================End========================
+2020-12-14 10:25:52.412 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doAround:51 -Request Params       : {id=4}
+2020-12-14 10:25:52.412 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doAround:52 -Result               : {user=com.example.demo02.model.User@76bff4bf}
+2020-12-14 10:25:52.412 INFO [http-nio-8080-exec-3]com.example.demo02.config.LogAspect.doAround:53 -Time Cost            : 5 ms
+2020-12-14 10:26:30.280 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doBefore:40 -===============================Start========================
+2020-12-14 10:26:30.281 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doBefore:41 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 10:26:30.282 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doBefore:42 -URL                : http://localhost:8080/user/list
+2020-12-14 10:26:30.282 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doBefore:43 -HTTP Method        : GET
+2020-12-14 10:26:30.283 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doBefore:44 -Class Method       : com.example.demo02.controller.ApiController.getAllUser
+2020-12-14 10:26:30.524 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doAfter:83 -===============================End========================
+2020-12-14 10:26:30.524 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doAround:51 -Request Params       : {}
+2020-12-14 10:26:30.524 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doAround:52 -Result               : {list=[com.example.demo02.model.User@3b9c194a, com.example.demo02.model.User@f0b8c81, com.example.demo02.model.User@58e715e3, com.example.demo02.model.User@583ae82e, com.example.demo02.model.User@337fc2a], status=ok}
+2020-12-14 10:26:30.524 INFO [http-nio-8080-exec-4]com.example.demo02.config.LogAspect.doAround:53 -Time Cost            : 244 ms
+2020-12-14 11:01:24.301 INFO [Thread-17]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 11:01:24.305 INFO [Thread-17]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-14 11:01:24.307 INFO [Thread-17]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2020-12-14 11:01:24.327 INFO [Thread-17]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2020-12-14 11:01:24.673 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 5404 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 11:01:24.673 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 11:01:24.893 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 11:01:24.893 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 11:01:24.905 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 11:01:24.911 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 16ms. Found 1 JPA repository interfaces.
+2020-12-14 11:01:24.916 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 11:01:24.917 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 11:01:24.920 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 11:01:24.924 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 7ms. Found 1 MongoDB repository interfaces.
+2020-12-14 11:01:24.928 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 11:01:24.928 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 11:01:24.931 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 11:01:24.932 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 11:01:24.932 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-12-14 11:01:25.177 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 11:01:25.178 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 11:01:25.178 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 11:01:25.178 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 11:01:25.208 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 11:01:25.209 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 534 ms
+2020-12-14 11:01:25.281 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 11:01:25.294 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 11:01:25.300 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-2 - Starting...
+2020-12-14 11:01:25.304 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-2 - Start completed.
+2020-12-14 11:01:25.304 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 11:01:25.367 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 11:01:25.368 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 11:01:25.468 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 11:01:25.573 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 11:01:25.769 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 11:01:26.323 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 11:01:26.326 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 11:01:26.327 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 11:01:26.328 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 11:01:26.331 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 1.705 seconds (JVM running for 2256.496)
+2020-12-14 11:01:26.333 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2020-12-14 11:01:27.578 INFO [cluster-ClusterId{value='5fd6d5852939115c9e28ac10', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 13:57:42.960 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 8504 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 13:57:42.965 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 13:57:43.006 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 13:57:43.006 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 13:57:43.719 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 13:57:43.719 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 13:57:43.772 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 13:57:43.791 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+2020-12-14 13:57:43.813 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 13:57:43.814 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 13:57:43.820 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 13:57:43.825 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 13:57:43.837 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 13:57:43.839 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 13:57:43.851 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 13:57:43.852 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 13:57:43.853 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-12-14 13:57:44.679 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 13:57:44.689 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 13:57:44.690 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 13:57:44.690 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 13:57:44.821 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 13:57:44.821 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 1814 ms
+2020-12-14 13:57:45.124 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 13:57:45.195 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 13:57:45.246 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 13:57:45.409 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 13:57:45.520 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 13:57:45.648 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 13:57:45.667 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 13:57:46.199 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 13:57:46.206 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 13:57:46.448 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 13:57:47.106 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 13:57:47.439 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 13:57:48.972 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 13:57:48.991 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 13:57:48.993 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 13:57:48.993 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 13:57:49.001 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.43 seconds (JVM running for 7.783)
+2020-12-14 13:57:49.149 INFO [cluster-ClusterId{value='5fd6fedb526964091b3611c6', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 14:07:03.283 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 20168 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 14:07:03.298 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 14:07:03.345 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 14:07:03.345 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 14:07:04.072 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:07:04.073 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 14:07:04.126 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 14:07:04.146 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+2020-12-14 14:07:04.169 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:07:04.169 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 14:07:04.175 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 14:07:04.181 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 14:07:04.192 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:07:04.193 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 14:07:04.205 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 14:07:04.206 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 14:07:04.206 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-12-14 14:07:04.943 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 14:07:04.951 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:07:04.952 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 14:07:04.952 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 14:07:05.103 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 14:07:05.104 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 1758 ms
+2020-12-14 14:07:05.394 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 14:07:05.457 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 14:07:05.506 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 14:07:05.642 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 14:07:05.725 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 14:07:05.822 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 14:07:05.839 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 14:07:06.337 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 14:07:06.344 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 14:07:07.222 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 14:07:07.550 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 14:07:07.624 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 14:07:09.257 INFO [cluster-ClusterId{value='5fd7010b1729522676a54f1a', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 14:07:09.263 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:07:09.284 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 14:07:09.285 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 14:07:09.286 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 14:07:09.294 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.562 seconds (JVM running for 7.986)
+2020-12-14 14:07:44.710 INFO [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 14:07:44.710 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-12-14 14:07:44.724 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 13 ms
+2020-12-14 14:07:44.755 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:40 -===============================Start========================
+2020-12-14 14:07:44.755 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:41 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 14:07:44.756 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:42 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 14:07:44.756 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:43 -HTTP Method        : GET
+2020-12-14 14:07:44.757 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doBefore:44 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 14:07:44.820 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAfter:83 -===============================End========================
+2020-12-14 14:07:44.820 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAround:51 -Request Params       : {id=4}
+2020-12-14 14:07:44.821 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAround:52 -Result               : {user=com.example.demo02.model.User@5834e601}
+2020-12-14 14:07:44.821 INFO [http-nio-8080-exec-2]com.example.demo02.config.LogAspect.doAround:53 -Time Cost            : 67 ms
+2020-12-14 14:11:03.500 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 15716 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 14:11:03.503 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 14:11:03.544 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 14:11:03.545 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 14:11:04.299 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:11:04.300 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 14:11:04.349 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 14:11:04.369 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2020-12-14 14:11:04.391 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:11:04.391 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 14:11:04.397 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 14:11:04.404 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 14:11:04.415 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:11:04.416 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 14:11:04.428 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 14:11:04.430 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 14:11:04.430 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-14 14:11:05.188 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 14:11:05.195 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:11:05.196 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 14:11:05.196 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 14:11:05.324 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 14:11:05.325 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 1780 ms
+2020-12-14 14:11:05.558 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 14:11:05.602 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 14:11:05.646 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 14:11:05.770 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 14:11:05.854 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 14:11:05.955 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 14:11:05.971 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 14:11:06.517 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 14:11:06.523 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 14:11:06.775 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 14:11:07.473 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 14:11:07.825 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 14:11:09.461 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:11:09.481 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 14:11:09.483 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 14:11:09.483 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 14:11:09.491 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.623 seconds (JVM running for 8.103)
+2020-12-14 14:11:09.516 INFO [cluster-ClusterId{value='5fd701fb5fa315296325f3b7', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 14:16:02.541 INFO [Thread-12]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 14:16:02.543 INFO [Thread-12]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-14 14:16:02.544 INFO [Thread-12]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2020-12-14 14:16:02.553 INFO [Thread-12]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2020-12-14 14:16:02.813 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 15716 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 14:16:02.813 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 14:16:03.024 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:16:03.024 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 14:17:11.005 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 14:17:11.006 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 14:17:11.014 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 15716 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 14:17:11.014 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 14:17:11.427 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:17:11.427 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 14:17:11.430 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+2020-12-14 14:17:11.437 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:17:11.437 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 14:17:11.440 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+2020-12-14 14:17:11.445 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:17:11.445 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 14:17:11.449 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2020-12-14 14:17:11.867 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 14:17:11.868 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:17:11.868 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 14:17:11.868 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 14:17:11.894 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 14:17:11.894 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 877 ms
+2020-12-14 14:17:11.956 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 14:17:12.031 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 14:17:12.036 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-2 - Starting...
+2020-12-14 14:17:12.040 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-2 - Start completed.
+2020-12-14 14:17:12.040 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:559 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'studentService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentServiceImpl': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.demo02.service.impl.StudentServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5c3a41eb]
+2020-12-14 14:17:12.041 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 14:17:12.041 INFO [restartedMain]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:598 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 14:17:12.081 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 14:17:12.082 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 14:17:12.085 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-14 14:17:12.086 INFO [restartedMain]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-2 - Shutdown initiated...
+2020-12-14 14:17:12.088 INFO [restartedMain]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-2 - Shutdown completed.
+2020-12-14 14:17:12.089 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-12-14 14:17:12.094 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-14 14:19:35.156 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 18104 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 14:19:35.159 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 14:19:35.198 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 14:19:35.199 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 14:19:36.264 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:19:36.265 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 14:19:36.320 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 14:19:36.339 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2020-12-14 14:19:36.374 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:19:36.374 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 14:19:36.380 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 14:19:36.389 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 14ms. Found 1 MongoDB repository interfaces.
+2020-12-14 14:19:36.406 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 14:19:36.408 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 14:19:36.421 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 14:19:36.422 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 14:19:36.424 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-12-14 14:19:37.511 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 14:19:37.531 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:19:37.532 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 14:19:37.533 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 14:19:38.124 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 14:19:38.125 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2926 ms
+2020-12-14 14:19:38.515 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 14:19:38.559 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 14:19:38.603 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 14:19:38.718 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 14:19:38.820 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 14:19:38.917 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 14:19:38.934 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 14:19:39.446 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 14:19:39.453 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 14:19:40.164 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 14:19:40.392 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 14:19:40.727 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 14:19:42.426 INFO [cluster-ClusterId{value='5fd703fc60d65e27eb60e202', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 14:19:42.501 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 14:19:42.523 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 14:19:42.525 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 14:19:42.525 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 14:19:42.534 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 7.931 seconds (JVM running for 9.442)
+2020-12-14 14:19:42.536 INFO [restartedMain]com.example.demo02.model.Student.run:41 ->>>>>>>>>>>>>>>Student服务启动执行，执行加载数据等操作,,order值为1<<<<<<<<<<<<<
+2020-12-14 14:19:42.537 INFO [restartedMain]com.example.demo02.model.Student.run:85 ->>>>>>>>>>>>>>>User服务启动执行，执行加载数据等操作,,order值为2<<<<<<<<<<<<<
+2020-12-14 14:19:42.537 INFO [restartedMain]com.example.demo02.model.Student.run:67 ->>>>>>>>>>>>>>>UserMN服务启动执行，执行加载数据等操作,order值为3<<<<<<<<<<<<<
+2020-12-14 15:17:25.092 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 4744 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 15:17:25.095 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 15:17:25.139 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 15:17:25.139 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 15:17:25.844 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:17:25.845 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 15:17:25.896 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 15:17:25.915 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2020-12-14 15:17:25.939 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:17:25.940 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 15:17:25.945 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 15:17:25.951 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 15:17:25.964 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:17:25.965 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 15:17:25.977 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:17:25.978 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:17:25.979 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-14 15:17:27.109 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 15:17:27.117 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:17:27.118 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 15:17:27.119 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 15:17:27.262 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 15:17:27.263 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2124 ms
+2020-12-14 15:17:27.475 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 15:17:27.510 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 15:17:27.553 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 15:17:27.673 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 15:17:27.761 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 15:17:27.862 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 15:17:27.878 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 15:17:28.453 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 15:17:28.460 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 15:17:29.061 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 15:17:29.272 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 15:17:29.485 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 15:17:30.641 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:17:30.662 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 15:17:30.663 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:17:30.664 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 15:17:30.671 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.024 seconds (JVM running for 7.484)
+2020-12-14 15:17:30.674 INFO [restartedMain]com.example.demo02.model.Student.run:41 ->>>>>>>>>>>>>>>Student服务启动执行，执行加载数据等操作,,order值为1<<<<<<<<<<<<<
+2020-12-14 15:17:30.674 INFO [restartedMain]com.example.demo02.model.Student.run:85 ->>>>>>>>>>>>>>>User服务启动执行，执行加载数据等操作,,order值为2<<<<<<<<<<<<<
+2020-12-14 15:17:30.674 INFO [restartedMain]com.example.demo02.model.Student.run:67 ->>>>>>>>>>>>>>>UserMN服务启动执行，执行加载数据等操作,order值为3<<<<<<<<<<<<<
+2020-12-14 15:17:31.321 INFO [cluster-ClusterId{value='5fd7118946c92a32be39b647', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 15:17:44.780 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 15:17:44.780 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-12-14 15:17:44.789 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-12-14 15:17:44.819 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:44 -===============================Start========================
+2020-12-14 15:17:44.820 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:45 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:17:44.820 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:17:44.821 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -HTTP Method        : GET
+2020-12-14 15:17:44.822 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:17:44.880 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:87 -===============================End========================
+2020-12-14 15:17:44.881 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:55 -Request Params       : {id=4}
+2020-12-14 15:17:44.881 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:56 -Result               : {user=com.example.demo02.model.User@79d8724e}
+2020-12-14 15:17:44.881 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Time Cost            : 62 ms
+2020-12-14 15:23:46.560 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 14212 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 15:23:46.563 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 15:23:46.611 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 15:23:46.611 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 15:23:47.356 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:23:47.357 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 15:23:47.408 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 15:23:47.426 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2020-12-14 15:23:47.448 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:23:47.449 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 15:23:47.455 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 15:23:47.461 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 15:23:47.472 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:23:47.473 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 15:23:47.485 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:23:47.486 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:23:47.487 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-12-14 15:23:47.929 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:559 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 formal unbound in pointcut 
+2020-12-14 15:23:47.938 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-14 15:31:52.428 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 4248 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 15:31:52.433 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 15:31:52.485 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 15:31:52.485 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 15:31:53.232 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:31:53.233 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 15:31:53.288 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 15:31:53.311 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2020-12-14 15:31:53.333 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:31:53.334 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 15:31:53.340 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 15:31:53.346 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 12ms. Found 1 MongoDB repository interfaces.
+2020-12-14 15:31:53.359 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:31:53.361 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 15:31:53.372 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:31:53.373 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:31:53.373 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-14 15:31:54.176 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 15:31:54.184 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:31:54.184 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 15:31:54.185 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 15:31:54.308 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 15:31:54.308 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 1823 ms
+2020-12-14 15:31:54.547 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 15:31:54.590 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 15:31:54.634 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 15:31:54.767 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 15:31:54.850 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 15:31:54.951 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 15:31:54.968 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 15:31:55.511 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 15:31:55.518 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 15:31:56.310 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 15:31:56.553 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 15:31:56.969 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 15:31:58.593 INFO [cluster-ClusterId{value='5fd714ec52c1d97a70338c1d', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 15:31:58.849 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:31:58.871 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 15:31:58.872 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:31:58.873 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 15:31:58.881 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.992 seconds (JVM running for 8.421)
+2020-12-14 15:31:58.884 INFO [restartedMain]com.example.demo02.model.Student.run:41 ->>>>>>>>>>>>>>>Student服务启动执行，执行加载数据等操作,,order值为1<<<<<<<<<<<<<
+2020-12-14 15:31:58.884 INFO [restartedMain]com.example.demo02.model.Student.run:85 ->>>>>>>>>>>>>>>User服务启动执行，执行加载数据等操作,,order值为2<<<<<<<<<<<<<
+2020-12-14 15:31:58.884 INFO [restartedMain]com.example.demo02.model.Student.run:67 ->>>>>>>>>>>>>>>UserMN服务启动执行，执行加载数据等操作,order值为3<<<<<<<<<<<<<
+2020-12-14 15:32:19.539 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 15:32:19.539 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-12-14 15:32:19.550 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 11 ms
+2020-12-14 15:32:19.580 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:45 -===============================Start2========================
+2020-12-14 15:32:19.581 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:32:19.581 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:32:19.582 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -HTTP Method        : GET
+2020-12-14 15:32:19.584 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:49 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:32:19.585 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -===============================Start========================
+2020-12-14 15:32:19.585 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:32:19.585 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:32:19.586 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:49 -HTTP Method        : GET
+2020-12-14 15:32:19.586 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:50 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:32:19.641 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:90 -===============================End========================
+2020-12-14 15:32:19.641 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Request Params       : {id=4}
+2020-12-14 15:32:19.642 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:58 -Result               : {user=com.example.demo02.model.User@42ff9a83}
+2020-12-14 15:32:19.642 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:59 -Time Cost            : 57 ms
+2020-12-14 15:32:19.642 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:89 -===============================End2========================
+2020-12-14 15:32:19.642 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:56 -Request Params       : {id=4}
+2020-12-14 15:32:19.643 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Result               : {user=com.example.demo02.model.User@42ff9a83}
+2020-12-14 15:32:19.643 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:58 -Time Cost            : 63 ms
+2020-12-14 15:34:25.012 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 19996 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 15:34:25.016 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 15:34:25.056 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 15:34:25.057 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 15:34:25.769 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:34:25.769 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 15:34:25.822 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 15:34:25.840 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+2020-12-14 15:34:25.862 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:34:25.863 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 15:34:25.869 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 15:34:25.874 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 11ms. Found 1 MongoDB repository interfaces.
+2020-12-14 15:34:25.886 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:34:25.888 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 15:34:25.900 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:34:25.901 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:34:25.901 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-14 15:34:26.863 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 15:34:26.871 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:34:26.871 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 15:34:26.872 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 15:34:27.000 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 15:34:27.000 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 1943 ms
+2020-12-14 15:34:27.242 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 15:34:27.292 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 15:34:27.338 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 15:34:27.462 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 15:34:27.545 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 15:34:27.648 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 15:34:27.665 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 15:34:28.213 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 15:34:28.221 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 15:34:28.478 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 15:34:29.150 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 15:34:29.495 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 15:34:31.140 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:34:31.162 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 15:34:31.163 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:34:31.163 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 15:34:31.171 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.599 seconds (JVM running for 8.097)
+2020-12-14 15:34:31.174 INFO [restartedMain]com.example.demo02.model.Student.run:41 ->>>>>>>>>>>>>>>Student服务启动执行，执行加载数据等操作,,order值为1<<<<<<<<<<<<<
+2020-12-14 15:34:31.174 INFO [restartedMain]com.example.demo02.model.Student.run:85 ->>>>>>>>>>>>>>>User服务启动执行，执行加载数据等操作,,order值为2<<<<<<<<<<<<<
+2020-12-14 15:34:31.174 INFO [restartedMain]com.example.demo02.model.Student.run:67 ->>>>>>>>>>>>>>>UserMN服务启动执行，执行加载数据等操作,order值为3<<<<<<<<<<<<<
+2020-12-14 15:34:31.184 INFO [cluster-ClusterId{value='5fd71585ea1672373d7941b5', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 15:34:36.770 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 15:34:36.771 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-12-14 15:34:36.785 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 14 ms
+2020-12-14 15:34:36.815 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:45 -===============================Start Order=1========================
+2020-12-14 15:34:36.816 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:34:36.816 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:34:36.816 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -HTTP Method        : GET
+2020-12-14 15:34:36.818 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:49 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:34:36.818 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -===============================Start Order=2========================
+2020-12-14 15:34:36.818 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:34:36.819 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:34:36.819 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:49 -HTTP Method        : GET
+2020-12-14 15:34:36.819 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:50 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:34:36.878 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:90 -===============================End Order=2========================
+2020-12-14 15:34:36.878 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Request Params       : {id=4}
+2020-12-14 15:34:36.879 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:58 -Result               : {user=com.example.demo02.model.User@304ba1f4}
+2020-12-14 15:34:36.879 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:59 -Time Cost            : 61 ms
+2020-12-14 15:34:36.879 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:89 -===============================End Order=1========================
+2020-12-14 15:34:36.880 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:56 -Request Params       : {id=4}
+2020-12-14 15:34:36.880 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Result               : {user=com.example.demo02.model.User@304ba1f4}
+2020-12-14 15:34:36.880 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:58 -Time Cost            : 65 ms
+2020-12-14 15:51:15.524 INFO [restartedMain]com.example.demo02.Demo02Application.logStarting:55 -Starting Demo02Application on DESKTOP-LJKO2 with PID 18948 (D:\学习学习学习说三遍\工作2020\demo02-main - jpa\target\classes started by AlpsDu in D:\学习学习学习说三遍\工作2020\demo02-main - jpa)
+2020-12-14 15:51:15.527 INFO [restartedMain]com.example.demo02.Demo02Application.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-12-14 15:51:15.568 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 15:51:15.569 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 15:51:16.241 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:51:16.242 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 15:51:16.294 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-12-14 15:51:16.312 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2020-12-14 15:51:16.335 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:51:16.336 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-12-14 15:51:16.343 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-12-14 15:51:16.349 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 12ms. Found 1 MongoDB repository interfaces.
+2020-12-14 15:51:16.361 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-14 15:51:16.362 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-14 15:51:16.375 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:51:16.376 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:348 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo02.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-12-14 15:51:16.376 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-14 15:51:17.378 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-12-14 15:51:17.390 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:51:17.392 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-12-14 15:51:17.392 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 15:51:17.572 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-12-14 15:51:17.572 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2003 ms
+2020-12-14 15:51:17.852 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 15:51:17.897 INFO [task-1]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 15:51:17.943 INFO [task-1]org.hibernate.Version.logVersion:44 -HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 15:51:18.054 INFO [task-1]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 15:51:18.140 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2020-12-14 15:51:18.244 INFO [task-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2020-12-14 15:51:18.262 INFO [task-1]org.hibernate.dialect.Dialect.<init>:170 -HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-12-14 15:51:18.809 INFO [task-1]o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 15:51:18.816 INFO [task-1]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 15:51:19.075 INFO [task-2]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-12-14 15:51:19.762 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-12-14 15:51:20.112 WARN [restartedMain]o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:220 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 15:51:21.760 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 15:51:21.779 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 15:51:21.781 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:49 -Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:51:21.781 INFO [restartedMain]o.s.d.r.config.DeferredRepositoryInitializationListener.onApplicationEvent:53 -Spring Data repositories initialized!
+2020-12-14 15:51:21.789 INFO [restartedMain]com.example.demo02.Demo02Application.logStarted:61 -Started Demo02Application in 6.721 seconds (JVM running for 8.201)
+2020-12-14 15:51:21.792 INFO [restartedMain]com.example.demo02.model.Student.run:41 ->>>>>>>>>>>>>>>Student服务启动执行，执行加载数据等操作,,order值为1<<<<<<<<<<<<<
+2020-12-14 15:51:21.792 INFO [restartedMain]com.example.demo02.model.Student.run:67 ->>>>>>>>>>>>>>>UserMN服务启动执行，执行加载数据等操作,order值为3<<<<<<<<<<<<<
+2020-12-14 15:51:21.795 INFO [cluster-ClusterId{value='5fd71977d59267546aa25229', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-12-14 15:51:34.288 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 15:51:34.288 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-12-14 15:51:34.300 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-12-14 15:51:34.332 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:45 -===============================Start Order=1========================
+2020-12-14 15:51:34.332 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:51:34.333 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:51:34.333 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -HTTP Method        : GET
+2020-12-14 15:51:34.335 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:49 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:51:34.335 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:46 -===============================Start Order=2========================
+2020-12-14 15:51:34.335 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:47 -IP                 : 0:0:0:0:0:0:0:1
+2020-12-14 15:51:34.336 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:48 -URL                : http://localhost:8080/user/detail/4
+2020-12-14 15:51:34.336 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:49 -HTTP Method        : GET
+2020-12-14 15:51:34.336 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doBefore:50 -Class Method       : com.example.demo02.controller.ApiController.getUserDetail
+2020-12-14 15:51:34.368 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:90 -===============================End Order=2========================
+2020-12-14 15:51:34.369 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Request Params       : {id=4}
+2020-12-14 15:51:34.369 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:58 -Result               : {user=com.example.demo02.model.User@6751ca49}
+2020-12-14 15:51:34.404 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:59 -Time Cost            : 69 ms
+2020-12-14 15:51:34.404 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAfter:89 -===============================End Order=1========================
+2020-12-14 15:51:34.404 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:56 -Request Params       : {id=4}
+2020-12-14 15:51:34.404 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:57 -Result               : {user=com.example.demo02.model.User@6751ca49}
+2020-12-14 15:51:34.405 INFO [http-nio-8080-exec-1]com.example.demo02.config.LogAspect.doAround:58 -Time Cost            : 73 ms
